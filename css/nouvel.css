@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #4D4D4D;
+	
+}
+
+p {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+li {
+	display: inline;
+	padding-right: 40px;
+}
+
+
+
+.nav {
+	padding: 15px 30px 15px 20px;
+	border-bottom: solid thick #B6C7E0;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.namLogo {
+	display: flex;
+	float: left;
+	padding: 5px 30px 0 5px;
+	
+}
+
+.topLine {
+	background-color: #363636;
+	height: 10px;
+	width: 100%;
+}
+
+.navSpace {
+	width: 100%;
+}
+
+.header {
+	background-color: #F0EFED;
+	height: 110px;
+	width: 100%;
+}
+
+.scheduleACall {
+	background-color: #DBC488;
+	display: inline;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	padding: 10px 30px 10px 30px;
+	border: none;
+	box-shadow: 3px 3px rgba(0,0,0,0.5);
+
+}
+
+.firstSection {
+	display: inline;
+	width: 100%;
+	
+}
+
+.firstSectionLeft {	
+	background-color: #F0E4C5;
+	padding: 40px 0 40px 40px;
+	height: 400px;
+	width: 100%;
+}
+
+.whoWeAre {
+	width: 400px;
+	font-size: 25px;
+	line-height: 40px;
+	float: left;
+}
+
+.scheduleACall2 {
+	background-color: #DBC488;
+	display: inline;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	padding: 10px 30px 10px 30px;
+	margin: 20px 10px 0 0;
+	border: none;
+	box-shadow: 3px 3px rgba(0,0,0,0.5);
+	float:left;
+}
+
+.imageDivFirstSection {
+	position: relative;
+	float: right;
+	display: flex;
+	top: -237px;
+	left: 417px;
+	
+}
+.imgFirstSection {
+	position: relative;
+	float: right;
+	display: flex, block;
+	bottom: 63px;
+	z-index: 1;
+}
+
+
+.rectangleFirstSection{
+	position: relative;
+	float: right;
+	height: 390px;
+	width: 418px;
+	left: -418px;
+	
+
+}
+
+.secondBorder {
+	position: absolute;
+	width: 100%;
+}
+
+
+.secondRectangle {
+	position: absolute;
+	width: 400px;
+	height: 8px;
+	top: 630px;
+	
+}
+
+
+
+
+.secondSection {
+	position: absolute;
+	top: 638px;
+	text-align: center;
+	background-color: #b4c4e4;
+	padding: 40px 0 60px 40px;
+	width: 100%; 
+	height: 180px;
+}
+
+
+.secondSectionFont {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 40px;
+	height: 30px;
+	top: 638px;
+}
+
+
+
+.thirdImage {
+	width: 1170px;
+	flex-basis: auto;
+	
+	
+}
+
+.thirdSection {
+	position: absolute;
+	top: 917px;
+	display: flex;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+.fourthSection {
+	position: absolute;
+	top: 1450px;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 100%; 
+}
+
+.whatWeStandFor {
+	margin: 10px 150px 10px 150px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.translation {
+	font-style: italic;
+	font-size:19px;
+	margin: 10px 350px 5px 350px;
+}
+
+.fifthSection {
+	position: absolute;
+	top: 1850px;
+	background-color: #F0EFED;
+	padding: 40px 0 40px 40px;
+	width: 100%;
+	
+}
+
+.meetTheTeam {
+	margin: 10px 150px 10px 150px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	
+}
+
+.teamImagesRow1{
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.teamImagesRow2{
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.teamRolesRow1 {
+	padding-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.rolesRow1 {
+	width: 100%;
+}
+
+table {
+	width:100%;
+	margin-top: 50px;
+}
+
+.titlesRow1 {
+	padding-top: 10px;
+	color: #8F7329;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", sans-serif;
+	line-height: 20.8px;
+	font-size: 13px;
+	letter-spacing: 20%;
+	
+}
+
+.tableRolesRow2 {
+	margin-top: 50px;
+}
+
+
+.teamMeeting {
+	border-radius: 50%;
+}
+
+.sixthSection {
+	position: absolute;
+	top: 2580px;
+	width: 100%;
+	text-align: center;
+	background-color: #849BBD;
+	padding-top: 30px;
+	height: 250px;
+}
+
+.letsTalkDetails {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 40px;
+	height: 30px;
+	top: 638px;
+}
+
+.socialIcons {
+display: flex;
+	justify-content: space-between;
+}
+
+.footerFirst {
+	float: left;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-right: 80px;
+}
+
+.footerSecond {
+	float: left;
+	width: 25%;
+	line-height: 22px;
+	padding-right: 100px;
+}
+
+.footerThird {
+	float: left;
+	width: 22%;
+	line-height: 22px;
+}
+
+.newsletterSignup {
+	padding: 7px 7px 7px 5px;
+	background-color: #666666;
+	border: none;
+	box-shadow: 3px 3px rgba(0,0,0,0.5);
+
+}
+
+placeholder {
+	color: #ffffff !important;
+	font-style: italic;
+
+}
+
+.newsletterSignupButton {
+	margin-top: 10px;
+	padding: 7px 14px 7px 14px;
+	background-color: #DBC488;
+	border: none;
+	box-shadow: 3px 3px rgba(0,0,0,0.5);
+
+}
+
+
+footer {
+	position: absolute;
+	top: 2860px;
+	background-color: #363636;
+	padding-top: 50px;
+	padding-left: 60px;
+	width: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+
+}
+
+
+
